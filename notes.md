@@ -12,3 +12,16 @@ put images displayed in assets folder under src.
 use npm install react-router-dom in vsc terminal
 
 App.css is for styling that applies to everything. styles folder css is for specific files styling
+
+Video: Intro To React Database Connections - https://www.youtube.com/watch?v=HVdMhKN2ng4
+
+Use jsonbox.io (uses Mongo.DB) for storage
+Axios.get
+Sandbox Product Start To Do List: https://codesandbox.io/p/sandbox/react-databases-no-db-19flw
+
+Sandbox Using Axios: https://codesandbox.io/s/react-databases-axios-4jlzo
+
+Sandbox Refactored API.js End Result https://codesandbox.io/s/react-databa...
+
+Reddit: https://www.reddit.com/r/reactjs/comments/z2s0is/keeping_react_app_in_sync_with_backenddatabase/
+
