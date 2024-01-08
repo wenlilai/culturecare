@@ -33,11 +33,13 @@ nav {
     margin-left: 100px;
     padding: 0px 50px;
     margin-left: 100px;
+    padding-left: 0px;
 }
 
 .navbar_container a {
     font-size: 35px;
     color: rgb(92, 208, 223);
+    padding-left: 0px;
 }
 
 .navbar_menu {
@@ -49,7 +51,7 @@ nav {
 }
 
 .navbar_menu a {
-    font-size: 25px;
+    font-size: 20px;
     color: black;
     padding: 10px;
     margin-right: 70px;

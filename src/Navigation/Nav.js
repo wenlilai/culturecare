@@ -7,8 +7,8 @@ function Nav() {
         </div>
 
         <div className='navbar_menu'>
-            <a href="/">HOME</a>
-            <a href="/">APPOINTMENTS</a>
+            <a href="/">Home</a>
+            <a href="/">Appointments</a>
         </div>
     </nav>
 
