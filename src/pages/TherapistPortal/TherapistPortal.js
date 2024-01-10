@@ -188,23 +188,24 @@ function Category() {
                                         </div>
                                     </div>
 
+                                    <div class="boxes">
+                                        <div class="box_2">
+                                            <p><AiFillSlackCircle style={{ color: 'white' }} className='circle' /></p>
+                                            <div class="circle-text_1">4.5</div>
+                                            <div class="circle-text_2">Average Request Per Clinician</div>
+                                        </div>
 
-                                    <div class="box_2">
-                                        <p><AiFillSlackCircle style={{ color: 'white' }} className='circle' /></p>
-                                        <div class="circle-text_1">4.5</div>
-                                        <div class="circle-text_2">Average Request Per Clinician</div>
-                                    </div>
+                                        <div class="box_3">
+                                            <p><FaUserCheck style={{ color: 'white' }} className='fact-check' /></p>
+                                            <div class="circle-text_1">90%</div>
+                                            <div class="circle-text_2">Verified Outt-Of-Network Benefits</div>
+                                        </div>
 
-                                    <div class="box_3">
-                                        <p><FaUserCheck style={{ color: 'white' }} className='fact-check' /></p>
-                                        <div class="circle-text_1">90%</div>
-                                        <div class="circle-text_2">Verified Outt-Of-Network Benefits</div>
-                                    </div>
-
-                                    <div class="box_4">
-                                        <p><FaUserCheck style={{ color: 'white' }} className='fact-check' /></p>
-                                        <div class="circle-text_1">83%</div>
-                                        <div class="circle-text_2">Conversion Rate</div>
+                                        <div class="box_4">
+                                            <p><FaUserCheck style={{ color: 'white' }} className='fact-check' /></p>
+                                            <div class="circle-text_1">83%</div>
+                                            <div class="circle-text_2">Conversion Rate</div>
+                                        </div>
                                     </div>
                                 </div>
 
