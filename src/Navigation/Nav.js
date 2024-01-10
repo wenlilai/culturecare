@@ -8,7 +8,7 @@ function Nav() {
 
         <div className='navbar_menu'>
             <a href="/">Home</a>
-            <a href="/">Appointments</a>
+            <a href="/pending-request">Appointment Requests</a>
         </div>
     </nav>
 

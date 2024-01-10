@@ -2,8 +2,9 @@
 import React from 'react';
 import Navigation from './Navigation/Nav';
 import TherapistPortal from './pages/TherapistPortal/TherapistPortal';
+import SelectClinician from './pages/SelectClinician/SelectClinician';
 import PendingRequest from './pages/PendingRequest/PendingRequest';
-import Sidebar from './pages/Sidebar';
+// import Sidebar from './pages/Sidebar';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 // const Stack = createNativeStackNavigator();
@@ -16,8 +17,9 @@ function App() {
         <Navigation />
 
         <Routes>
-          <Route path="/" element={<TherapistPortal />} />
-          <Route path="/pending-request" element={<PendingRequest />} />
+          <Route path="/" exact element={<SelectClinician />} />
+          <Route path="/pending-request" element={<TherapistPortal />} />
+          <Route path="/pending-request-details" element={<PendingRequest />} />
         </Routes>
 
       </Router >

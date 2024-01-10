@@ -1,5 +1,6 @@
 import React from 'react';
 import './TherapistPortal.css';
+// import PendingRequest from './pages/PendingRequest/PendingRequest';
 import { SlCalender } from "react-icons/sl";
 import { MdOutlineArrowOutward } from "react-icons/md";
 import { AiFillSlackCircle } from "react-icons/ai";
@@ -236,9 +237,11 @@ function Category() {
                                         </div>
 
                                         <div class="view_consultation">
-                                            <form method="get" action="/pending-request">
+                                            <form method="get" action="/pending-request-details">
                                                 <input type="hidden" name="request" value="consultation" />
-                                                <button>View Consultation Request</button>
+                                                <a href='/pending-request-details'>
+                                                    <button>View Consultation Request</button>
+                                                </a>
                                             </form>
                                         </div>
                                     </div>
@@ -268,9 +271,11 @@ function Category() {
                                         </div>
 
                                         <div class="view_consultation">
-                                            <form method="get" action="/pending-request">
+                                            <form method="get" action="/pending-request-details">
                                                 <input type="hidden" name="request" value="consultation" />
-                                                <button>View Consultation Request</button>
+                                                <a href='/pending-request-details'>
+                                                    <button>View Consultation Request</button>
+                                                </a>
                                             </form>
                                         </div>
                                     </div>
@@ -301,9 +306,11 @@ function Category() {
 
                                         <div class="view_consultation">
 
-                                            <form method="get" action="/pending-request">
+                                            <form method="get" action="/pending-request-details">
                                                 <input type="hidden" name="request" value="consultation" />
-                                                <button>View Consultation Request</button>
+                                                <a href='/pending-request-details'>
+                                                    <button>View Consultation Request</button>
+                                                </a>
                                             </form>
 
                                         </div>
