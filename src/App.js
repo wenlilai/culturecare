@@ -1,14 +1,26 @@
 
+import React from 'react';
 import Navigation from './Navigation/Nav';
-// import TherapistPortal from './pages/TherapistPortal/TherapistPortal';
+import TherapistPortal from './pages/TherapistPortal/TherapistPortal';
+import PendingRequest from './pages/PendingRequest/PendingRequest';
 import Sidebar from './pages/Sidebar';
-import "./App.css";
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+
+// const Stack = createNativeStackNavigator();
 
 function App() {
   return (
     <div className='all'>
-      <Navigation />
-      <Sidebar />
+      <Router>
+        {/* <Sidebar /> */}
+        <Navigation />
+
+        <Routes>
+          <Route path="/" element={<TherapistPortal />} />
+          <Route path="/pending-request" element={<PendingRequest />} />
+        </Routes>
+
+      </Router >
     </div>
   );
 }
