@@ -19,8 +19,9 @@ function Confirmation() {
                     <h3>This client has been notified of their appointment status.</h3>
                   
                     <h4>Note: Default email will be automatically sent to this client.</h4>
-                  
-                    <button className='return-button'>Return to Home</button>
+                    <a href="/">
+                        <button className='return-button'>Return to Home</button>
+                    </a>
                 </div>
         </div>
         

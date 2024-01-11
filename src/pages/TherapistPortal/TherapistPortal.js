@@ -239,8 +239,8 @@ function Category() {
                                         <div class="view_consultation">
                                             <form method="get" action="/pending-request-details">
                                                 <input type="hidden" name="request" value="consultation" />
-                                                <a href='/pending-request-details'>
-                                                    <button>View Consultation Request</button>
+                                                <a href='/pending-request-details'>View Consultation Request
+                                                    {/* <button>View Consultation Request</button> */}
                                                 </a>
                                             </form>
                                         </div>
@@ -273,8 +273,8 @@ function Category() {
                                         <div class="view_consultation">
                                             <form method="get" action="/pending-request-details">
                                                 <input type="hidden" name="request" value="consultation" />
-                                                <a href='/pending-request-details'>
-                                                    <button>View Consultation Request</button>
+                                                <a href='/pending-request-details'>View Consultation Request
+                                                    {/* <button>View Consultation Request</button> */}
                                                 </a>
                                             </form>
                                         </div>
@@ -308,8 +308,8 @@ function Category() {
 
                                             <form method="get" action="/pending-request-details">
                                                 <input type="hidden" name="request" value="consultation" />
-                                                <a href='/pending-request-details'>
-                                                    <button>View Consultation Request</button>
+                                                <a href='/pending-request-details'>View Consultation Request
+                                                    {/* <button>View Consultation Request</button> */}
                                                 </a>
                                             </form>
 

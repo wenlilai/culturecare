@@ -400,6 +400,10 @@ h3 {
   cursor: pointer;
 }
 
+.view_consultation a {
+  color: white;
+}
+
 /* .view_consultation button {
   margin-left: 80px;
   margin-top: 10px;

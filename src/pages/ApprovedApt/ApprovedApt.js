@@ -19,8 +19,10 @@ function Confirmation() {
                     <h3>This Consultation Has Been Added To Your Calendar</h3>
                   
                     <h4>Note: Default automation tasks will be automatically completed for this client.</h4>
-                  
+
+                    <a href="/">
                     <button className='return-button'>Return to Home</button>
+                    </a>
                 </div>
         </div>
         

@@ -19,8 +19,10 @@ function Confirmation() {
                     <h3>You Have Successfully Requested a Consultation.</h3>
                   
                     <h4>Note: Appointment requests will be aprroved by the practice. You recieved a copy of this consultation inquiry to your email.</h4>
-                  
-                    <button className='return-button'>Return to Home</button>
+
+                    <a href="/">
+                        <button className='return-button'>Return to Home</button>
+                    </a>
                 </div>
         </div>
         

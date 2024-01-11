@@ -171,7 +171,9 @@ function Category() {
                                     </div>
                              
 
-                                    <div class="view_consultation">Book an appointment</div>
+                                    <div class="view_consultation">
+                                    <a href="/clinician-j-ramirez">Book an appointment</a>
+                                    </div>
 
                                 </div>
 
@@ -200,7 +202,9 @@ function Category() {
                                     </div>
                              
 
-                                    <div class="view_consultation">Book an appointment</div>
+                                    <div class="view_consultation">
+                                        <a href="/clinician-l-tapia">Book an appointment</a>
+                                    </div>
 
                                 </div>
 
@@ -228,8 +232,10 @@ function Category() {
                                     </div>
                                     </div>
                              
-
-                                    <div class="view_consultation">Book an appointment</div>
+                                    
+                                    <div class="view_consultation">
+                                        <a href="/clinician-s-silva">Book an appointment</a>
+                                    </div>
 
                                 </div>
 
