@@ -1,4 +1,4 @@
-* {
+/* * {
   box-sizing: border-box;
   margin: 0px;
   padding: 0px;
@@ -69,8 +69,6 @@ button {
 }
 
 .cover-box1 {
-  /* border: 5px; */
-  /* border-style: groove; */
   border-radius: 15px;
   box-shadow: 5px 5px 5px lightgrey;
   padding: 10px;
@@ -87,7 +85,6 @@ button {
 .filter-container {
   display: flex;
   justify-content: space-between;
-  /* height: 80px; */
   z-index: 1;
   width: 100%;
   margin: 0px auto;
@@ -106,7 +103,6 @@ button {
 
 .radio-container,
 .checkbox-item {
-  /* Add common styles for radio buttons and checkboxes */
   display: flex;
   align-items: center;
   margin-bottom: 5px;
@@ -126,7 +122,6 @@ button {
   margin-left: -100px;
 }
 
-/* The container */
 .checkmark {
   display: block;
   position: relative;
@@ -140,7 +135,7 @@ button {
   user-select: none;
 }
 
-/* Hide the browser's default radio button */
+
 .radio input {
   position: absolute;
   opacity: 0;
@@ -148,7 +143,6 @@ button {
   text-align: center;
 }
 
-/* Create a custom radio button */
 .checkmark {
   position: absolute;
   top: 0;
@@ -159,29 +153,24 @@ button {
   border-radius: 50%;
 }
 
-/* On mouse-over, add a grey background color */
 .checkbox-container:hover input~.checkmark {
   background-color: #ccc;
 }
 
-/* When the radio button is checked, add a blue background */
 .checkbox-container input:checked~.checkmark {
   background-color: #2196F3;
 }
 
-/* Create the indicator (the dot/circle - hidden when not checked) */
 .checkmark:after {
   content: "";
   position: absolute;
   display: none;
 }
 
-/* Show the indicator (dot/circle) when checked */
 .checkbox-container input:checked~.checkmark:after {
   display: block;
 }
 
-/* Style the indicator (dot/circle) */
 .checkbox-container .checkmark:after {
   top: 9px;
   left: 9px;
@@ -200,17 +189,13 @@ button {
 
 
 .box1 {
-  /* align-content: center; */
   border-radius: 15px;
   padding: 20px;
-  /* margin-left: 40%; */
   margin-top: 0px;
   background: #E5F5FD;
   width: 670%;
   margin-bottom: 20px;
   box-shadow: 5px 5px 5px lightgrey;
-  /* margin-right: 80px; */
-  /* margin-right: 0px; */
 }
 
 h4 {
@@ -219,8 +204,6 @@ h4 {
 }
 
 .summary-box {
-  /* border: 3px;
-  border-style: hidden; */
   border-radius: 4px;
   background: #E5F5FD;
   padding: 10px;
@@ -241,8 +224,6 @@ h4 {
 }
 
 .box_1 {
-  /* border: 1px outset;
-  border-radius: 4px; */
   background-color: #BCEEF9;
   margin-top: 30px;
   margin-left: 10px;
@@ -268,7 +249,6 @@ h4 {
 
 .calender {
   border-radius: 50%;
-  /* border: 2px solid transparent; */
   background-color: #6d82cd;
   padding-left: 13px;
   padding-right: 13px;
@@ -412,8 +392,6 @@ h3 {
   background-color: rgb(24, 168, 245);
   width: 100%;
   margin-top: 6px;
-  /* margin-left: 5px; */
-  /* margin-right: 5px; */
   padding: 3px;
 }
 .days {
@@ -451,12 +429,10 @@ h3 {
 }
 
 .view_consultation {
-  /* border: 1px inset; */
   font-size: 17px;
   color:white;
   background-color: #2563EB;
   margin-top: 30px;
-  /* margin-left: 30px; */
   padding: 3px;
   padding-top: 15px;
   padding-bottom: 15px;
@@ -466,4 +442,4 @@ h3 {
 
 .view_consultation a {
   color: white;
-}
+} */
